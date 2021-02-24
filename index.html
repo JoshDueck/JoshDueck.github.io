@@ -41,7 +41,7 @@
             <div class="container">
                 <div class="masthead-subheading">Hi, I'm Josh Dueck!</div>
                 <div class="masthead-heading text-uppercase">I'm a Web Developer</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Discover More</a>
+                <a class="btn btn-dark btn-xl text-uppercase js-scroll-trigger" href="#team">Discover More</a>
             </div>
         </header>
         <!-- Services
@@ -150,17 +150,19 @@
                     <!-- <h3 class="section-subheading text-muted">A brief description of who I am.</h3> -->
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-6">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="assets/img/team/Josh1.jpg" alt="" />
                             <h4>Josh Dueck</h4>
                             <p class="text-muted">Web Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://ca.linkedin.com/in/josh-dueck-b23102170" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a> -->
+                                <a class="btn btn-dark btn-social mx-2" href="https://github.com/JoshDueck" target="_blank"><i class="fab fa-github"></i></a>
+                                <a class="btn btn-dark btn-social mx-2" href="https://ca.linkedin.com/in/josh-dueck-b23102170" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-8">I am a recent graduate of Camosun College's Information and Computer Systems program.</div>
+                    <div class="col-lg-6">
+                        <p>I’m a Web Developer from Victoria, B.C. I am a recent graduate of Camosun College’s Information and Computer Systems program. I have experience developing with Javascript, React, HTML, CSS, and PHP. I am always keen on learning new languages and technologies, as well as the ins and outs of the ones that I already know. In my spare time, I’m usually at the gym, playing sports, video games, or trying to improve my chess skills.</p>
+                    </div>
                     <!--
                     <div class="col-lg-4">
                         <div class="team-member">
@@ -185,9 +187,9 @@
                     -->
                 </div>
 
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
-                </div>
+                </div> -->
             </div>
         </section>
 
@@ -201,29 +203,33 @@
                 <div class="row">
                     <div class="col-lg-6 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                            <a class="portfolio-link" href="https://capstone2020-xordpe-prod.pathfinder.gov.bc.ca" target="_blank">
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    <div class="portfolio-hover-content">View Site</div>
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/news-app-small.png" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">BC Gov Playbook</div>
-                                <div class="portfolio-caption-subheading text-muted">News</div>
+                                <div class="project-text">A news application made with Javascript, React, HTML, CSS. It uses a public API and cookies to store use preferences.</div>
+                                <a class="btn btn-dark btn-sm" href="https://capstone2020-xordpe-prod.pathfinder.gov.bc.ca" target="_blank">View Live Site</a>
+                                <a class="btn btn-dark btn-sm" href="https://github.com/JoshDueck/CITZ-IMB-Capstone2020" target="_blank">View Code</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 mb-4">
                         <div class="portfolio-item">
-                            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                            <a class="portfolio-link">
                                 <div class="portfolio-hover">
-                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                    <div class="portfolio-hover-content">Site Not Available</div>
                                 </div>
                                 <img class="img-fluid" src="assets/img/portfolio/La-Maison-small.png" alt="" />
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">La Maison E-Commerce</div>
-                                <div class="portfolio-caption-subheading text-muted">E-Commerce</div>
+                                <div class="project-text">An E-Commerce application made with PHP, HTML, CSS, and an SQL database. (Currently not available)</div>
+                                <a class="btn btn-dark btn-sm text-uppercase disabled">Site not Available</a>
+                                <a class="btn btn-dark btn-sm" href="https://github.com/JoshDueck/la-maison" target="_blank">View Code</a>
                             </div>
                         </div>
                     </div>
@@ -316,6 +322,7 @@
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Me</h2>
                     <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+                    <a class="btn btn-dark btn-xl" href="https://www.linkedin.com/in/josh-dueck-b23102170/" target="_blank">My LinkedIn Profile</a>
                 </div>
                 <!--
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
@@ -352,12 +359,13 @@
         <!-- Footer-->
         <footer class="footer py-4">
             <div class="container">
-                <div class="row align-items-center">
+                 <div class="row align-items-center"> 
                     <div class="col-lg-4 text-lg-left">Copyright © Josh Dueck 2021</div>
+                    
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-light btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <!-- <a class="btn btn-light btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a> -->
+                        <a class="btn btn-light btn-social mx-2" href="https://github.com/JoshDueck" target="_blank"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-light btn-social mx-2" href="https://ca.linkedin.com/in/josh-dueck-b23102170"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <!--
                     <div class="col-lg-4 text-lg-right">
