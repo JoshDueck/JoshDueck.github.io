@@ -10192,9 +10192,13 @@ header.masthead .masthead-heading {
   opacity: 1;
 }
 #portfolio .portfolio-item .portfolio-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
+  height: 16rem;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
@@ -10494,4 +10498,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .project-text {
   padding-bottom: 1rem;
+}
+
+.portfolio-button {
+  align-self: center;
 }
